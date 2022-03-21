@@ -1,2 +1,2 @@
 # rsschool-cv
-https://github.com/rolling-scopes-school/tasks
+https://awer17.github.io/rsschool-cv/cv
