@@ -4,18 +4,14 @@
 Russian native
 Belarusian native
 English  Classroom Study
-
-
 ## Contact information:
 address: 6775 S. Langdale St. #107
 Aurora, CO, USA  80016
 tel: (720) 988-3232
 E-mail: awer@gmail.com
 
-
 ## About Me:
 In 2009, an employee of a small company SEgroup. The company's main focus is graphic design services. Development of design layouts for business cards, leaflets, brochures, advertising banners and branding of commercial vehicles.
-
 2021 got carried away with website layout. It was decided to change profession.
 
 Emigrated to the USA in 2022
