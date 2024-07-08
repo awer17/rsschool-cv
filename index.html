@@ -7,7 +7,7 @@
     <title>My CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="wrap">
+<body class="wrap-body">
     <header class="wrapper">
         <nav>
             <ul>
@@ -20,25 +20,27 @@
     </header>
     <main>
         <section class="home" id="home">
-            <div class="-left">
-                <img src="IMG_4232.jpeg" alt="my_photo">
-                <h1>Siarheyeu&nbsp;Siarhei</h1>
-                <p>Junior Frontend Develope</p>
-                <div class="languag">
-                    <h2>Language</h2>
-                    <ul>
-                        <li>Russian native</li>
-                        <li>Belarusian native</li>
-                        <li>English &#40;A0&#41; classroom study</li>
-                    </ul>
+            <div class="wrapper-home">
+                <div class="-left">
+                    <div class="my-photo"></div>
+                    <h1>Siarheyeu&nbsp;Siarhei</h1>
+                    <p>Junior Frontend Develope</p>
+                </div>
+                <div class="-rigth">
+                    <h2>Contact information:</h2>
+                    <p>6775 S. Langdale St. #107 <br/>
+                        Aurora, CO, USA  80016</p>
+                    <a href="mailto:awer100@gmail.com">awer100@gmail.com</a>
+                    <a href="tel:+17197894722">+1&#40;719&#41;789-47-22</a>
                 </div>
             </div>
-            <div class="-rigth">
-                <h2>Contact information:</h2>
-                <p>6775 S. Langdale St. #107 <br/>
-                    Aurora, CO, USA  80016</p>
-                <a href="mailto:awer100@gmail.com">awer100@gmail.com</a>
-                <a href="tel:+17197894722">+1&#40;719&#41;789-47-22</a>
+            <div class="languag">
+                <h2>Language</h2>
+                <ul>
+                    <li>Russian native</li>
+                    <li>Belarusian native</li>
+                    <li>English &#40;A0&#41; classroom study</li>
+                </ul>
             </div>
         </section>
         <section class="about" id="about">
@@ -81,7 +83,7 @@
                 </p>
             </div>
         </section>
-        <section class="skiills">
+        <section class="skiills" id="skills">
             <div class="wrapper">
                 <h2>Skills and knowledge:</h2>
                     <ul>
@@ -102,7 +104,7 @@
                 <p>2024</p>
                 <a href="https://github.com/awer17">awer</a>
             </div>
-            <a href="https://rs.school/courses/javascript-ru"><img src="rs-school-logo.svg" alt="link RS-school"></a>
+            <a class="link-rs" href="https://rs.school/courses/javascript-ru"></a>
         </div>
     </footer>
 </body>
