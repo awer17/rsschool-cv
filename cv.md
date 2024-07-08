@@ -32,7 +32,7 @@ Feb - Jun 2022, Minsk
 
 ### IT-Academia
 Development of web applications with JavaScript
-Feb - Jun 2022, Minsk
+Feb - Jun 2022, Minsk 
 [Final project](https://awer17.github.io/Project_Vesna/)
 [repository](https://github.com/awer17/Project_Vesna.git) (HTML, SCSS, Flex, Grid, JavaScript)
 
