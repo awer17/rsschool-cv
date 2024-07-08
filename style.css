@@ -1,15 +1,18 @@
 .wrap-body{
-  max-width: 1200px;
   margin: 0 auto;
-  /* position: relative; */
+  position: relative;
 }
 header{
-  /* position: absolute; */
-  background: #c0c0c0;
   width: 100%;
+  position: fixed;
+  background: #c0c0c0;
   margin: 0 auto;
   padding-top: 10px;
   padding-bottom:  10px;
+}
+.wrap-nav{
+  width: 1200px;
+  margin: 0 auto;
 }
 header nav{
   margin-left: 100px;
@@ -33,7 +36,8 @@ header nav ul li a{
 
 main{
   max-width: 1000px;
-  margin: 10px auto;
+  margin: 0 auto;
+  padding-top: 110px;
 }
 main .home{
   width: 100%;
