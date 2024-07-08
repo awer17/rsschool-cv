@@ -7,7 +7,103 @@
     <title>My CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Siarheyeu&nbsp;Siarhei</h1>
+<body class="wrap">
+    <header class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home" id="home">
+            <div class="-left">
+                <img src="IMG_4232.jpeg" alt="my_photo">
+                <h1>Siarheyeu&nbsp;Siarhei</h1>
+                <p>Junior Frontend Develope</p>
+                <div class="languag">
+                    <h2>Language</h2>
+                    <ul>
+                        <li>Russian native</li>
+                        <li>Belarusian native</li>
+                        <li>English &#40;A0&#41; classroom study</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="-rigth">
+                <h2>Contact information:</h2>
+                <p>6775 S. Langdale St. #107 <br/>
+                    Aurora, CO, USA  80016</p>
+                <a href="mailto:awer100@gmail.com">awer100@gmail.com</a>
+                <a href="tel:+17197894722">+1&#40;719&#41;789-47-22</a>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h2>About Me</h2>
+            <p>In 2009, an employee of a small company SEgroup. The company's main focus is graphic design services. Development of design layouts for business cards, leaflets, brochures, advertising banners and branding of commercial vehicles.
+            </p>
+            <p>2021 has become a passion for website development. </p>
+            <p>Emigrated to the USA in 2022</p>
+        </section>
+        <section class="education" id="education">
+            <h2>Education</h2>
+            <div class="it-academia">
+                <h3>IT-Academia</h3>
+                <div class="wrapper">
+                    <p>Developing web applications with React<br/>April - July 2023, Minsk (distance learning) </p>
+                    <p class="description">
+                        The project is written on functional components. Used hooks: useDispatch, useSelector, useEffect. The Redux library is used to transfer and store data. Redux provides centralized management of application state. Implemented React Router to route to pages based on URL. Uses AJAX to load content from a list and photo upload resource. (Files DogSlid.js, ItemCompare.js, dogSlice.js). Used to store data in Json files.
+                    </p>
+                    <a href="https://github.com/awer17/your-dog.git">Final project</a>
+                    <p>Code</p>
+                    <pre>
+                        <code>  useEffect(
+                        ()=>{
+                        fetch("https://fe.it-academy.by/Examples/Hotel/hotelinfo.json")
+                            .then( response => {
+                                return response.json();
+                            } )
+                            .then ( info => {
+                                console.log(age,info);
+                            } )
+                        },
+                        );
+                        </code>
+                    </pre>
+                </div>
+            </div>
+            <div class="coledg">
+                <h3>College of Economics of Law and Management</h3>
+                <p>Sen 2000- Jul 2002, Minsk Faculty of Economics and Enterprise Management.<br/>Specialization: Economist-Manager.
+                </p>
+            </div>
+        </section>
+        <section class="skiills">
+            <div class="wrapper">
+                <h2>Skills and knowledge:</h2>
+                    <ul>
+                        <li>Adobe Photoshop,Figma </li>
+                        <li>CorelDRAW, Illustrator</li>
+                        <li>VCcode, Git</li>
+                        <li>HTML, CSS, CSSS</li>
+                        <li>Flex, Grid, Bootstrap</li>
+                        <li>JavaScript, React</li>
+                        <li>Redux, Hooks, React Router, AJAX</li>
+                    </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="conteiner-sing">
+                <p>2024</p>
+                <a href="https://github.com/awer17">awer</a>
+            </div>
+            <a href="https://rs.school/courses/javascript-ru"><img src="rs-school-logo.svg" alt="link RS-school"></a>
+        </div>
+    </footer>
 </body>
 </html>
